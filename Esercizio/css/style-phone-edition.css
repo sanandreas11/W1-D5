@@ -1,1 +1,122 @@
 /* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+width: 500px;
+margin: 0 auto;
+}
+#image img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+#image {
+    background-color: black;
+    padding: 30px;
+}
+header img {
+display: block;
+margin: 0 auto;
+width: 50%;
+}
+header {
+    background-image: url(../images/banner.jpg);
+    padding: 70px 70px 20px;
+    background-position: center;
+}
+h1 {
+    text-align: center;
+  font-family:"Montserrat", serif;
+  font-weight: bold;
+  color: #25a2c3;
+  font-size: 2em;
+  line-height: 1.65em;
+}
+.orange-back {
+    background-color: #f04c2f;
+    width: 100%;
+    padding: 2em 0 2em;
+}
+.white {
+    color: white;
+}
+h3 {
+    text-align: center;
+  font-family:"Montserrat", serif;
+  font-weight: bold;
+  color: #25a2c3;
+  font-size: 1.5em;
+  line-height: 1.65em;
+}
+p {
+    text-align: center;
+  font-family:"Montserrat", serif;
+  font-weight: normal;
+  color: #393d41;
+  font-size: 1.2em;
+  line-height: 1.65em;
+}
+a {
+  font-family:"Montserrat", serif;
+  font-size: 1.2em;
+  line-height: 1.65em;
+  text-decoration: none;
+}
+button {
+    display: block;
+    margin: 20px auto ;
+    background-color: #f04c2f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family:"Montserrat", serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+main {
+    padding: 70px 70px 20px;
+}
+main img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 50%;
+    padding: 2em 0 2em;
+}
+#box1 img {
+width: 100%;
+}
+#box1 {
+margin: 2em 0;
+border: 2px solid #dee1e3;
+padding: 0 0 2em;
+}
+#box2 img {
+width: 100%;
+}
+#box2 {
+margin: 2em 0;
+border: 2px solid #dee1e3;
+padding: 0 0 2em;
+}
+#box3 img {
+width: 100%;
+}
+#box3 {
+margin: 2em 0;
+border: 2px solid #dee1e3;
+padding: 0 0 2em;
+}
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+    padding: 20px 0;
+}
+.contacts {
+    color: white;
+}
+hr {
+    border: 1px solid white;
+    width: 50%;
+    margin: 0 auto;
+}
